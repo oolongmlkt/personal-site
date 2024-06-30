@@ -1,0 +1,155 @@
+/****************************************************
+    Hands-on Exercise 2
+ ****************************************************/
+/* Body styles*/
+    /* TODO: body, main, footer, .container */
+    body {
+        font-family: 'Roboto Mono', sans-serif;
+        background-color: white;
+        color: black;
+        margin: 0px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    footer {
+        margin-top: 100px;
+        background-color: lightblue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Typography styles */ 
+        /* TODO: h2, p */
+    h2 {
+        text-align: center;
+        margin-top: 20;
+        color: lightblue;
+    }
+    
+    p {
+        color: black;
+    }
+    
+    /* Navigation styles */ 
+        /* TODO: nav, nav ul, nav ul li, nav ul li a */
+    nav {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    nav ul li a {
+        font-style: bold;
+        color: lightblue;
+        text-decoration: underline;
+    }
+    
+    /* About Section styles */
+        /* TODO: .about-container, .about-paragraph, .about-image */
+    .about {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin: 50px;
+    }
+    
+    .about-paragraph {
+        grid-column: 1;
+        text-align: right;
+    }
+    
+    .about-image {
+        grid-column: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pfp {
+        height: 25%;
+        width: auto;
+        border-radius: 20px;
+    }
+    
+    /* Portfolio Section styles */
+        /* TODO: .portfolio-container */
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+        
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .project-card {
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 20px 20px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: calc(50% - 40px);
+        box-sizing: border-box;
+    }
+    
+    .project-card p {
+        margin-bottom: 10px;
+    }
+    
+    .project-card button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .project-card button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Skills Section styles */
+        /* TODO: .skills-container, .skill, .skill-icon, .skill-icon img, .skill-name */
+    
+    
+    
+    /* Contact Section styles */
+        /* TODO: .contact-container, .contact-container form, .contact-container input[type="text"],
+    .contact-container input[type="email"],
+    .contact-container textarea, .contact-form input, .contact-form textarea, .contact-container input */
